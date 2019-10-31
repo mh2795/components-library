@@ -1,0 +1,93 @@
+button {
+    color: white;
+    border-Radius: 2px;
+    padding: 5px 25px;
+}
+
+.button-primary {
+    background-Color: #33A0FF;
+    border: #0069D9;
+}
+
+.button-danger {
+    background-Color: #FF4858;
+    border: #FF4858;
+}
+
+.button-success {
+    background-Color: #0AD00A;
+    border: #0AD00A;
+}
+
+.button-warning {
+    background-Color: #FFC600;
+    border: #FFC600;
+}
+
+.button-default {
+    background-Color: #22262A;
+    border: #22262A;
+}
+
+.button-large {
+    padding: 10px 50px;
+}
+
+.hover:hover {
+    filter: saturate(90%);
+}
+
+.nobg-primary {
+    Color: #33A0FF;
+    background: white;
+    border: 1px solid #33A0FF;
+}
+
+.nobg-danger {
+    Color: #FF4858;
+    background: white;
+    border: 1px solid #FF4858;
+}
+
+.nobg-success {
+    Color: #0AD00A;
+    background: white;
+    border: 1px solid #0AD00A;
+}
+
+.nobg-warning {
+    Color: #FFC600;
+    background: white;
+    border: 1px solid #FFC600;
+}
+
+.nobg-default {
+    Color: #22262A;
+    background: white;
+    border: 1px solid #22262A;
+}
+
+.litebg-primary {
+    Color: #33A0FF;
+    background: rgba(51, 160, 255, 0.10);
+}
+
+.litebg-danger {
+    Color: #FF4858;
+    background: rgba(255, 72, 87, 0.10);
+}
+
+.litebg-success {
+    Color: #0AD00A;
+    background: rgba(10, 208, 10, 0.10);
+}
+
+.litebg-warning {
+    Color: #FFC600;
+    background: rgba(255, 200, 0, 0.10);
+}
+
+.litebg-default {
+    Color: #22262A;
+    background: rgba(34, 38, 42, 0.10);
+}
