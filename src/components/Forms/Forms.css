@@ -1,0 +1,27 @@
+.form-small {
+    padding: 3px 0px;
+    padding-right: 100px;
+    padding-left: 15px;
+}
+
+.form-medium {
+    padding: 5px 0px;
+    padding-right: 100px;
+    padding-left: 15px;
+}
+
+.form-large {
+    padding: 10px 0px;
+    padding-right: 100px;
+    padding-left: 15px;
+}
+
+.form-text {
+    font-size: 14px;
+    text-align: left;
+}
+
+.form-select {
+    font-size: 14px;
+    text-align: left;
+}

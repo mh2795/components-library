@@ -1,6 +1,10 @@
 import React from "react";
 import { storiesOf } from "@storybook/react";
 import Button from "./Button";
+import Icon from "../Icon/Icon";
+import Cart from '../../images/btn.png'
+import Heart from '../../images/hearts.png'
+import url from "@storybook/api/dist/modules/url";
 
 storiesOf("Button", module)
     .add("Primary", () => <Button label="Do Something" type="primary" hover />)
@@ -33,7 +37,8 @@ storiesOf("Button", module)
     .add('Large NoBG Success', () => <Button label="Do Something" type='success' large nobg />)
     .add('Large NoBG Warning', () => <Button label="Do Something " type='warning' large nobg />)
     .add('Large NoBG Default', () => <Button label="Do Something" type='default' large nobg />)
-    .add('Add To Cart', () => <Button label= "Add To Cart" type='primary' litebg />)
-    .add('Add To Favorites', () => <Button label= "Add To Favorites" type='primary' litebg />)
-    .add('Cart', () => <Button type='primary' litebg />)
-    .add('Favorites', () => <Button type='primary' litebg />)
+    .add('Cart', () => <Button icon={Cart} className='cart'type='primary' litebg />)
+    .add('Favorites', () => <Button icon={Heart} type='primary' litebg />)
+
+    .add('Add To Cart', () => <Button icon={Cart} label='Add To Cart' type='primary' litebg />)
+    .add('Add To Favorites', () => <Button icon={Heart} label= "Add To Favorites" type='primary' litebg />)
