@@ -1,0 +1,131 @@
+.thumbnail-border {
+    width: 270px;
+    height: 349px;
+    padding: 20px 10px;
+    border: 2px solid #F6F7F8;
+    border-radius: 4px;
+    position: relative;
+  }
+  .thumbnail-fill {
+    width: 270px;
+    height: 349px;
+    padding: 20px 10px;
+    border: 2px solid rgb(250, 250, 250);
+    border-radius: 4px;
+    background: rgb(250, 250, 250);
+    position: relative;
+  }
+  .thumbnail-horizontal {
+    width: 570px;
+    height: 224px;
+    padding: 0 20px;
+    border: 2px solid #F6F7F8;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+  }
+  .thumbnail-horizontal:hover {
+    border: 2px solid rgb(250, 250, 250);
+    background: rgb(250, 250, 250);
+  }
+  .first {
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+  }
+  .first:hover {
+    filter: opacity(10%);
+  }
+  .macbook {
+    padding: 20px 0;
+  }
+  hr {
+    width: 100%;
+    border-top: 1px solid #F6F7F8;
+  }
+  .second {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .second-2 {
+    margin-top: 20px;
+    padding-left: 30px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+  }
+  .title {
+    text-align: center;
+    font-family: Arial;
+    font-size: 14px;
+  }
+  .btns-hidden {
+    position: absolute;
+    filter: opacity(0%);
+  }
+  .btns-show {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    filter: opacity(100%);
+    left: 28%;
+    top: 25%;
+  }
+  .btns {
+    margin-right: 10px;
+  }
+  .thumbnail-horizontal-2 {
+    width: 570px;
+    height: 270px;
+    padding: 0 20px;
+    position: relative;
+    display: flex;
+  }
+  .first-2 {
+    border: 2px solid #F6F7F8;
+    border-radius: 4px;
+  }
+  .float-hot {
+    position: absolute;
+  }
+  .macbook-2 {
+    padding: 49.5px 20px;
+  }
+  .second-3 {
+    padding-left: 30px;
+    height: 224px;
+  }
+  .title-2 {
+    font-family: Arial;
+    font-size: 24px;
+    margin: 0;
+  }
+  .gray-span {
+    font-family: Arial;
+    font-size: 14px;
+    color: #C1C8CE;
+  }
+  .blue-span {
+    font-family: Arial;
+    font-size: 14px;
+    color: #33A0FF;
+  }
+  .black-span {
+    font-family: Arial;
+    font-size: 14px;
+    color: #262626;
+  }
+  .space {
+    margin-top: 10px;
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+  }

@@ -1,16 +1,34 @@
-.form-small {
+.form-text-small {
     padding: 3px 0px;
     padding-right: 100px;
     padding-left: 15px;
 }
 
-.form-medium {
+.form-text-medium {
     padding: 5px 0px;
     padding-right: 100px;
     padding-left: 15px;
 }
 
-.form-large {
+.form-text-large {
+    padding: 10px 0px;
+    padding-right: 100px;
+    padding-left: 15px;
+}
+
+.form-select-small {
+    padding: 3px 0px;
+    padding-right: 50px;
+    padding-left: 15px;
+}
+
+.form-select-medium {
+    padding: 5px 0px;
+    padding-right: 100px;
+    padding-left: 15px;
+}
+
+.form-select-large {
     padding: 10px 0px;
     padding-right: 100px;
     padding-left: 15px;
@@ -22,6 +40,12 @@
 }
 
 .form-select {
-    font-size: 14px;
+    appearance: none;
+    background: url("../../images/arrow-down.png") 90% / 3% no-repeat #fafafb;
+    font-size: 10px;
     text-align: left;
 }
+
+.shadow {
+border: none;
+background-color: lightgray;}
