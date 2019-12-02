@@ -6,7 +6,6 @@ const Form = (props) => {
     let classList = ''
     let types = ['text', 'select', 'number']
     let sizes = ['small', 'medium', 'large']
-    let placeholder = ''
     if (sizes.includes(props.size)) {
         classList += ` form-${props.type}-${props.size}`
     }
